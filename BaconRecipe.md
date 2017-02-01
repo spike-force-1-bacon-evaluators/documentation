@@ -16,20 +16,20 @@
 
 
 ## Extract restaurant data from review website (yelp, zomato, tripadvisor,...):
-*	Get review dataset (restricted to London).
-*	Extract relevant parameter from dataset (name/restaurant id, review, star rating, location, date, reviewer id, category, price range) rating for restaurants.
-*	Prune dataset (e.g. remove closed restaurants, etc.)
-*	Clean data.
+* Get review dataset (restricted to London).
+* Extract relevant parameter from dataset (name/restaurant id, review, star rating, location, date, reviewer id, category, price range) rating for restaurants.
+* Prune dataset (e.g. remove closed restaurants, etc.)
+* Clean data.
 
 ## Extract restaurant reviews from Twitter:
-*	Define how to filter restaurant tweets.
-*	Filter tweet from the desired region (London).
-*	Setup twitter stream connector (Kafka).
-*	Get sample collection of tweets.
-*	Apply ML model to data sample and verify performance.
+* Define how to filter restaurant tweets.
+* Filter tweet from the desired region (London).
+* Setup twitter stream connector (Kafka).
+* Get sample collection of tweets.
+* Apply ML model to data sample and verify performance.
 
 ## Create weighing model (WM):
-*	Insert magic here.
+* Insert magic here.
 
 ## Apply WM to restaurants:
-*	Profit.
+* Profit.
