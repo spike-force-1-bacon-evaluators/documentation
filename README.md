@@ -13,6 +13,7 @@
 * [Principles for Evaluating Pull Requests](docs/pull-request-evaluation.md)
 * [Project members](docs/project-members.md)
 * [Project Description](#markdown-header-project-description)
+* [3rd Party Libraries](docs/3rd-party-libs.md)
 
 ## Project Description
 The Bodacious Advisor for Cuisine Over N-joyment ranks the restaurants within London based on Twitter reviews.
