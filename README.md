@@ -34,6 +34,20 @@ Using a list with 2365 restaurants based in London with Tweeter account, we use 
 
 //toDo weight model (Sara)
 
+## The B.A.C.O.N Stack
+To achieve a lean architecture avoiding the waste of resources, our proposed stack took into consideration the volume of the data and the requirements regarded to its availability. For now, we are dealing with Mbs to Gbs of data and providing a new rank every day. With this scenario, a real-time ranking model is not necessary. Also, the volume of the data does not require a data processing cluster. At the point that our data grows to Tbs to Pbs, we have a plan to scale our storage and provide a spark cluster to handle all the data processing, but for now, it is not the case. The B.A.C.O.N Stack is shown bellow:
+
+* Programming Languages
+    * Scala
+    * GoLang
+    * Python
+* Storage
+    * Neo4j
+* Other Tools
+    * Dataiku
+
+The robustness of Scala allows us to have a solid development environment, ready to scale. At the same time, the quick development in Python and GoLang makes possible to script our code faster and adapt easier in early stages of the project. This easiness of evolute and adapt our processes very fast, is also verifiable in Dataiku and Neo4j. As a graph database, Neo4j is not only a solid ACID Db choice, is a great solution when we need to be in the constant evolution of our data model, eliminating risks of changing data structure and inserting new relationships. In Dataiku, the data science team can test a variety of algorithms, adapt them, clean and manage the data fast, and, when it will be necessary, use a remote Spark cluster to improve the resources for data processing.
+
 ## Architecture Overview
 The B.A.C.O.N pipeline for ranking restaurants is built on top of 5 components: 
 
@@ -61,5 +75,3 @@ Also, bellow we show the use cases in B.A.C.O.N.
 ![uc](images/use_cases.png)
 
 The six main tasks of B.A.C.O.N consist in retrieve a list of restaurants based in London that have a Twitter account. With this list, we can search for tweets about them and use this data in a sentiment analysis algorithm. The process to get the Rank for London Restaurants is done after we apply the Weight Model over our Classified Tweets.
-
-
