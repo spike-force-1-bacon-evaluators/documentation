@@ -57,7 +57,7 @@ The B.A.C.O.N pipeline for ranking restaurants is built on top of 5 components:
 4. The Data Analysis Layer (DAL) stands on top of DataIku, where our team of Data Scientists perform sentiment analysis/ranking algorithms and weight models to get the Restaurant Rank;
 5. We also have a Storage system to keep our precious data protected.
 
-![architecture](images/arch.JPG)
+![architecture](images/arch.png)
 
 The communication path through our components can be seen in the following image. 
 
