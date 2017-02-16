@@ -5,7 +5,6 @@
 * [Issue tracking](#markdown-header-issue-tracking)
 * [Topic branches](#markdown-header-topic-branches)
 * [Commit messages](#markdown-header-commit-messages)
-* [Changelog](#markdown-header-commit-changelog)
 * [Code review](#markdown-header-code-review)
 * [Release](#markdown-header-release)
 * [Gitflow](#markdown-header-gitflow)
@@ -26,7 +25,6 @@ Features and bug fixes are implemented in topic branches which stem from the mai
 * code written and validated
 * tests written (unit, acceptance)
 * documented code (comments, docstrings, ...)
-* changelog updated
 * code reviewed
 * issue closed
 * topic branch removed
@@ -85,19 +83,6 @@ Further paragraphs come after blank lines.
    vary here
 ```
 
-
-## Changelog
-
-The project change log must be updated on every task implementation as exemplified bellow:
-
-```
-2016-11-22 Tom Hanks <hanks.tom@email.com>
-
-  * Implement user's authentication endpoint on API
-  * Update API documentation
-```
-
-
 ## Code review
 
 With a task completed (see: [DoD](#markdown-header-definition-of-done)) a `Pull Request` must be open.
@@ -114,7 +99,6 @@ The main areas to focus during the code review:
 * comment and coding conventions
 * error handling
 * commits are logical and messages are clear
-* changelog has been updated correctly
 * functionality
 * security
 

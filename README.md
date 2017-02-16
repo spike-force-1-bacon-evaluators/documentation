@@ -7,7 +7,6 @@
 * [Topic branches](docs/ways-of-working.md#markdown-header-topic-branches)
 * [Commit messages](docs/ways-of-working.md#markdown-header-commit-messages)
 * [Code review](docs/ways-of-working.md#markdown-header-code-review)
-* [Changelog](docs/ways-of-working.md#markdown-header-commit-changelog)
 * [Gitflow](docs/ways-of-working.md#markdown-header-gitflow)
 * [Release](docs/ways-of-working.md#markdown-header-release)
 * [Principles for Evaluating Pull Requests](docs/pull-request-evaluation.md)
