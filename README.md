@@ -70,10 +70,4 @@ Our journey begins with a dataset provided by Yelp, which we use to get reviews 
 
 Using a list with 2365 restaurants based in London with Tweeter account, we use Twitter-API to get tweets that mention those accounts so that we can apply our sentiment analysis algorithm on them, discovering their *-tweet. Our time window is three months from now, so we will not consider old tweets.
 
-//toDo Machine Learning (Sara)
-
-//toDo ranking algorithm (Sara)
-
-//toDo weight model (Sara)
-
 
